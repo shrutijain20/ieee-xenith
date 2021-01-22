@@ -1145,6 +1145,28 @@ a.back-to-top:hover, a.back-to-top:focus {
 .banner_para{
   font-size: 40px;
 }
+@media (min-width: 772px) and (max-width: 991px) {
+  .banner_head{
+    font-size: 40px;
+  }
+  .banner_para{
+    font-size: 30px;
+  }
+  .banner{
+    width: 50%;
+  }
+}
+@media (max-width: 772px) {
+  .banner_head{
+    font-size: 3px;
+  }
+  .banner_para{
+    font-size: 2px;
+  }
+  .banner{
+    width: 80%;
+  }
+}
 .timeline ul {
   list-style: none;
 }
