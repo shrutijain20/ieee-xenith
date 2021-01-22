@@ -110,10 +110,11 @@ ul li, ol li {
   /* position: inherit; */
 }
 .about-content {
-  font-size: 2rem;
-  overflow-wrap: break-word;
+  font-size: 1.8rem;
+  /* overflow-wrap: break-word; */
+  text-align: center;
   hyphens: auto;
-   line-height: 1.6;
+   line-height: 2.4;
    color: #989898;
    /* font-weight: bold; */
 }
