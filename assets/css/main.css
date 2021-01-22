@@ -87,7 +87,18 @@ ul li, ol li {
   /* position: inherit; */
 }
 #timelin{
-  margin-left: 40%;
+  margin-left: 42%;
+}
+
+@media (max-width: 676px) {
+  #timelin{
+    margin-left: 35%;
+  }
+}
+@media (max-width: 500px) {
+  #timelin{
+    margin-left: 30%;
+  }
 }
 @media (max-width: 400px) {
   #timelin{
@@ -945,18 +956,18 @@ a.back-to-top:hover, a.back-to-top:focus {
 
   }
   .slicknav_nav{
-    background: #212121 !important;
+    background: #111317 !important;
   }
   .slicknav_nav .active a {
     background: #00ffff;
-    color: #212121;
+    color: #111317;
   }
   .slicknav_nav a:hover, .slicknav_nav .active {
     color:#00ffff;
-    background: #212121;
+    background: #111317;
   }
   .slicknav_nav .dropdown li a.active {
-    background: #212121;
+    background: #111317;
     color: #00ffff;
   }
 }
@@ -1127,28 +1138,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 .banner_para{
   font-size: 40px;
-}
-@media (min-width: 772px) and (max-width: 991px) {
-  .banner_head{
-    font-size: 40px;
-  }
-  .banner_para{
-    font-size: 30px;
-  }
-  .banner{
-    width: 50%;
-  }
-}
-@media (max-width: 772px) {
-  .banner_head{
-    font-size: 3px;
-  }
-  .banner_para{
-    font-size: 2px;
-  }
-  .banner{
-    width: 80%;
-  }
 }
 .timeline ul {
   list-style: none;
@@ -1392,7 +1381,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   background: linear-gradient(to right, #fd5cff, #4caef2);
-  width: 80%;
   max-width: 265px;
 }
 
@@ -1463,16 +1451,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text {
   position: absolute;
-  bottom: 6px;
+  bottom: 5px;
   text-align: center;
   width: 96%;
   /* padding: 15px 20px; */
   padding: 2px 5px;
   /* background: linear-gradient(to right, #efc4f1, #aed5f0); */
   background: rgba(51, 51, 51, 0.95);
-
-  border: 1px solid black;
-  /* border-radius: 50%; */
   border-radius: 2%;
 }
 
