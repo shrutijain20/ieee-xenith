@@ -115,7 +115,7 @@ ul li, ol li {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 400;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   display: inline-block;
   background-image: linear-gradient(to right,  #ff6ec7,#ffe227);
   /* background-image: linear-gradient(to right,  #ffe227,#eaac7f); */
@@ -2512,4 +2512,8 @@ footer{
   /* vertical-align: super; */
   margin-left: 1rem;
   font-size: 80%;
+}
+
+ul.footer-social li {
+  margin: 0px 24px;
 }
