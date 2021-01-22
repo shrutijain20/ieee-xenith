@@ -87,7 +87,12 @@ ul li, ol li {
   /* position: inherit; */
 }
 #timelin{
-  margin-left: 42%;
+  margin-left: 43%;
+}
+@media (max-width: 1500px) {
+  #timelin{
+    margin-left: 42%;
+  }
 }
 
 @media (max-width: 676px) {
