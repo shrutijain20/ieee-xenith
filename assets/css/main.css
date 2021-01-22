@@ -1318,7 +1318,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: relative;
   margin-bottom: 30px;
 }
-
+.img-fluid{
+  width: 350px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
 #gallery .gallery-box .overlay-box {
   position: absolute;
   top: 0px;
